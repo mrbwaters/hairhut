@@ -12,7 +12,8 @@ appointments.py contains the Appointments class. This class represents all of th
 date.py contains the Date class. This class represents the dates that you can schedule appointments. It stores day, month, and year values as integers. It stores a string of the date in text according to US convention. It stores a list of available times for appointments from 9am to 5pm.
 
 Running the Program
-	To run the program, run ‘interface.py’ in the Terminal/Console/Command Prompt with Python 3. This program was written for Python version 3.7.2 and may not function correctly in earlier versions.
+
+To run the program, run ‘interface.py’ in the Terminal/Console/Command Prompt with Python 3. This program was written for Python version 3.7.2 and may not function correctly in earlier versions.
 
 Design Considerations
 Multiple dates - Though not expressly called for in the assignment, choosing between multiple dates seemed an essential feature. I often have to schedule my haircut appointments a day or two in advance. In future builds, the generate_dates function should be expanded to provide more dates or take user input for date creation.
